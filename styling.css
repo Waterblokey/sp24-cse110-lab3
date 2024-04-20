@@ -23,3 +23,11 @@ body {
   fieldset p {
     color: color(display-p3 1 0.5 0 / .5);
   }
+
+  :root {
+    --main-color: #007bff; /* Default value */
+  }
+  
+  .selector {
+    color: var(--main-color, green) /* fallback */
+  }
