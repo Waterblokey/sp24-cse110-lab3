@@ -3,6 +3,23 @@ body {
   }
   
   h1 {
-    color: navy;
+    color: #be4d25;
     margin-left: 20px;
+  }
+
+  li.y {
+    color:green
+  }
+  li.n {
+    color:hsla(19, 100%, 50%, 0.6); /* makes lists with class n red */
+  }
+
+  div{
+    color: rgba(78, 0, 85, 0.6);
+  }
+  h2 {
+    color: color-mix(in lch, plum, pink);
+  }
+  fieldset p {
+    color: color(display-p3 1 0.5 0 / .5);
   }
