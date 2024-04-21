@@ -69,12 +69,12 @@ body {
   }
 
   nav{
-    grid-column: 20px ;
+    grid-column: 20 ;
     grid-row-start: 2;
     grid-row-end:4;
   }
   h2 {
-    color: color-mix(in lch, plum, pink);
+    color: color-mix(in srgb, #eb34dc 100%, white);
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 1em;
@@ -89,13 +89,12 @@ body {
   @media screen and (max-width: 980px) {
     fieldset p {
       font-size:40px;
-      margin: px;
     }
     
   }
   fieldset p {
     display: grid;
-    color: color(display-p3 1 0.5 0 / .5);
+    color: purple;
     width: 50vw;
     text-align: justify;
   }
@@ -107,7 +106,7 @@ body {
     color:orange;
   }
   h2:has(+ strong) {
-    font-size: 15;
+    color:#eb3434;
   }
   details > summary {
     color: white;
