@@ -1,7 +1,15 @@
 body {
     background-color: lightblue;
   }
-  
+  *{
+    font-family: "Roboto", sans-serif;
+  }
+  a[href = "#attendance"]{
+    font-size: 12pt;
+  }
+  #one {
+    font-size: 14pt;
+  }
   h1 {
     font-family: "Roboto", sans-serif;
     color: #be4d25;
@@ -42,12 +50,12 @@ body {
   li.n {
     color:hsla(19, 100%, 50%, 0.6); /* makes lists with class n red */
     padding: 5px 5px 10px 10px;
+    &:active {
+      color:green;
+      padding: 5px 5px 10px 10px;
+    }
   }
 
-  li.n:active {
-    color:green;
-    padding: 5px 5px 10px 10px;
-  }
 
   div{
     color: rgba(78, 0, 85, 0.6);
@@ -90,8 +98,19 @@ body {
     color: color(display-p3 1 0.5 0 / .5);
     width: 50vw;
     text-align: justify;
+  }
 
-
+  img ~ h2{
+    color: gray;
+  }
+  audio + span {
+    color:orange;
+  }
+  h2:has(+ strong) {
+    font-size: 15;
+  }
+  details > summary {
+    color: white;
   }
 
   :root {
