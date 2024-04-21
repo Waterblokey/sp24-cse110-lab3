@@ -24,9 +24,18 @@ body {
     padding-right: 10px;
     padding-left: 10px;
   }
+  li.y:hover {
+    color:hsla(19, 100%, 50%, 0.6);
+
+  }
 
   li.n {
     color:hsla(19, 100%, 50%, 0.6); /* makes lists with class n red */
+    padding: 5px 5px 10px 10px;
+  }
+
+  li.n:active {
+    color:green;
     padding: 5px 5px 10px 10px;
   }
 
