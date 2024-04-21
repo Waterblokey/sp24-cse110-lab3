@@ -12,6 +12,7 @@ body {
     max-width: fit-content;
     height: 3pc;
     max-height: fit-content;
+    position:sticky;
 
   }
 
@@ -37,6 +38,7 @@ body {
     border-style:groove;
     border-width: 5px;
     border-radius: 15%;
+    position:relative;
   }
   h2 {
     color: color-mix(in lch, plum, pink);
