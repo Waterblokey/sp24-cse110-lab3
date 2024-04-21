@@ -6,9 +6,12 @@ body {
     color: #be4d25;
     margin-left: 20px;
     margin-right: 20pt;
-    width: 200pc;
+    width: 30pc;
     font-size: 2.5em;
     display: inline-block;
+    max-width: fit-content;
+    height: 3pc;
+    max-height: fit-content;
 
   }
 
